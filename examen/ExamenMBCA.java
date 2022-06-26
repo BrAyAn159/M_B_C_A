@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class ExamenMBCA {
 
     static Scanner leerT=new Scanner(System.in);
-    public static void impuestocarros() {
+    public static void impuestosdecarros() {
         //Declarar variables
         String clavedecategoría, hayMas="S";
         int cantcategoría1=0, cantcategoría2=0, cantcategoría3=0;
@@ -142,7 +142,7 @@ public static void main(String[] args) {
   int pregunta = st.nextInt();
   switch (pregunta) {
     case 1:
-      impuestocarros(); break;
+      impuestosdecarros(); break;
     case 2:
       pintadodeX(); break;
     case 3:
